@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Get SuiteConnections Done Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[precondition Done Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[BrowserSetup Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[login Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[createUser_InvalidData for Register Test]]>
+    </line>
+    <line>
+      <![CDATA[Logout Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[login Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[createUser_InvalidData for Register Test]]>
+    </line>
+    <line>
+      <![CDATA[Logout Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[login Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[createUser_InvalidData for Register Test]]>
+    </line>
+    <line>
+      <![CDATA[Logout Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[Closebrowser Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[postcondition Done Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[Terminate Suiteconnection Done Sucessful]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-08T11:06:44 IST" name="Suite" finished-at="2024-08-08T11:07:23 IST" duration-ms="39484">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T11:06:44 IST" name="Test" finished-at="2024-08-08T11:07:23 IST" duration-ms="39484">
+      <class name="com.Amokart.registertest.RegisterTest">
+        <test-method is-config="true" signature="getSuiteConnections()[pri:0, instance:com.Amokart.registertest.RegisterTest@67f639d3]" started-at="2024-08-08T11:06:44 IST" name="getSuiteConnections" finished-at="2024-08-08T11:06:44 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Get SuiteConnections Done Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getSuiteConnections -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.Amokart.registertest.RegisterTest@67f639d3]" started-at="2024-08-08T11:06:44 IST" name="precondition" finished-at="2024-08-08T11:06:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[precondition Done Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.Amokart.registertest.RegisterTest@67f639d3]" started-at="2024-08-08T11:06:44 IST" name="browserSetup" finished-at="2024-08-08T11:06:46 IST" duration-ms="1810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BrowserSetup Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Amokart.registertest.RegisterTest@67f639d3]" started-at="2024-08-08T11:06:46 IST" name="login" finished-at="2024-08-08T11:06:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createUser_invalidData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Amokart.registertest.RegisterTest@67f639d3]" started-at="2024-08-08T11:06:46 IST" name="createUser_invalidData" data-provider="register" finished-at="2024-08-08T11:06:58 IST" duration-ms="12497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Veera]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kvveereshamma@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[createUser_InvalidData for Register Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser_invalidData -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.Amokart.registertest.RegisterTest@67f639d3]" started-at="2024-08-08T11:06:58 IST" name="Logout" finished-at="2024-08-08T11:06:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Amokart.registertest.RegisterTest@67f639d3]" started-at="2024-08-08T11:06:58 IST" name="login" finished-at="2024-08-08T11:06:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createUser_invalidData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Amokart.registertest.RegisterTest@67f639d3]" started-at="2024-08-08T11:06:58 IST" name="createUser_invalidData" data-provider="register" finished-at="2024-08-08T11:07:11 IST" duration-ms="12469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Laxmi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kvlakshmi2981@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Developer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[createUser_InvalidData for Register Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser_invalidData -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.Amokart.registertest.RegisterTest@67f639d3]" started-at="2024-08-08T11:07:11 IST" name="Logout" finished-at="2024-08-08T11:07:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Amokart.registertest.RegisterTest@67f639d3]" started-at="2024-08-08T11:07:11 IST" name="login" finished-at="2024-08-08T11:07:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createUser_invalidData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Amokart.registertest.RegisterTest@67f639d3]" started-at="2024-08-08T11:07:11 IST" name="createUser_invalidData" data-provider="register" finished-at="2024-08-08T11:07:23 IST" duration-ms="12514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Omkar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[guruvaomkari@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Devops]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[createUser_InvalidData for Register Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser_invalidData -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.Amokart.registertest.RegisterTest@67f639d3]" started-at="2024-08-08T11:07:23 IST" name="Logout" finished-at="2024-08-08T11:07:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Amokart.registertest.RegisterTest@67f639d3]" started-at="2024-08-08T11:07:23 IST" name="closebrowser" finished-at="2024-08-08T11:07:23 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closebrowser Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:com.Amokart.registertest.RegisterTest@67f639d3]" started-at="2024-08-08T11:07:23 IST" name="postcondition" finished-at="2024-08-08T11:07:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[postcondition Done Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="terminateSuiteconnection()[pri:0, instance:com.Amokart.registertest.RegisterTest@67f639d3]" started-at="2024-08-08T11:07:23 IST" name="terminateSuiteconnection" finished-at="2024-08-08T11:07:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Terminate Suiteconnection Done Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminateSuiteconnection -->
+      </class> <!-- com.Amokart.registertest.RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
